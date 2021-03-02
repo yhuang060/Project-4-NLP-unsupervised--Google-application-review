@@ -1,6 +1,5 @@
 # Project-4-NLP-unsupervised--Google-application-review
 Project 4 NLP unsupervised- Google application review <br/>
-Object: Predict if Start-up company will success or fail<br/><br/>
 
 Description: As an app developer, we work hard to create application and strive to get as many five-star reviews as possible. However, earning perfect review is not critical for future development. In fact, negative reviews can actually help us to improve our application. The goal of this project is to find out:
 - What topic has been discussed?
@@ -8,7 +7,22 @@ Description: As an app developer, we work hard to create application and strive 
 <br/><br/>
 
 Data source from Kaggle: <br/>
-Google apps reviews  https://www.kaggle.com/tiquasar/playstore-reviews-google-apps?select=app_details.csv
+Google apps reviews  https://www.kaggle.com/tiquasar/playstore-reviews-google-apps?select=app_details.csv<br/>
+
+1. app_detail.csv <br/>
+
+| Variable | Description                 | unique Value |
+| Title    | Name of the app             | 82.          |
+| summary  | description of the App      | 82.          |
+| installs | number of Installs          | ---          |
+| Score.   | User rating of the App      | 1-5 Star.    |
+| ratings  | Playstore rating of the App | ---          |
+| reviews  | number of reviews           | ---          |
+
+
+
+
+
 
 Methods: NLP, Sentiment, Topic Model(LDA/NMF/LSA), cluster (Kmeans)<br/><br/>
 Tools Used:
@@ -20,6 +34,4 @@ Tools Used:
 - Scipy
 - Sklearn (scikit-learn)
 - NLTK
-
-impacts: <br/>
 
