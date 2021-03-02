@@ -12,17 +12,24 @@ Google apps reviews  https://www.kaggle.com/tiquasar/playstore-reviews-google-ap
 1. app_detail.csv <br/>
 
 | Variable | Description                 | unique Value |
-| Title    | Name of the app             | 82.          |
-| summary  | description of the App      | 82.          |
-| installs | number of Installs          | ---          |
-| Score.   | User rating of the App      | 1-5 Star.    |
-| ratings  | Playstore rating of the App | ---          |
-| reviews  | number of reviews           | ---          |
+| -------- | -----------                 | ------------ |
+| Title    | Name of the app             | 82           |
+| summary  | description of the App      | 82           |
+| installs | number of Installs          | --- |
+| Score    | User rating of the App      | 1-5 Star     |
+| ratings  | Playstore rating of the App | --- |
+| reviews  | number of reviews           | --- |
+| appid.   | use to merge dataset        | --- |
 
+2. Playstore_Google_Apps_User_Reviews.csv <br/>
 
-
-
-
+| Variable | Description                          | unique Value |
+| -------- | -----------                          | ------------ |
+| Content  | Review of the App                    | 95004        |
+| score    | Rating given by the user for the App | 1-5 Star |
+| at       | Time of Review Creation              | --- |
+| appid    | use to merge dataset                 | --- |
+   
 
 Methods: NLP, Sentiment, Topic Model(LDA/NMF/LSA), cluster (Kmeans)<br/><br/>
 Tools Used:
